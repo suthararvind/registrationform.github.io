@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://suthararvind.github.io/react-gh-pages",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
