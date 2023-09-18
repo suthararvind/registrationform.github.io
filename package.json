@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js -e js,hbs"
   },
@@ -16,5 +18,8 @@
     "express-handlebars": "^7.1.2",
     "hbs": "^4.2.0",
     "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
